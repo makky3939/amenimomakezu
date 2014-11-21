@@ -1,0 +1,48 @@
+@font-face{
+  font-family: "yasasisa";
+  src: url("yasasisa.ttf");
+}
+    
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:#eee;
+  min-width:1280px;
+}
+
+section{
+ width:100%;
+ min-height:200px;
+}
+
+section:nth-of-type(1){
+  background:#00A8C6;
+}
+
+section:nth-of-type(2){
+  background:#40C0CB;
+}
+
+section:nth-of-type(3){
+  background:#F9F2E7;
+}
+
+section:nth-of-type(4){
+  background:#AEE239;
+}
+
+section:nth-of-type(5){
+  background:#8FBE00;
+}
+
+article{
+  margin:0 auto;
+  width:1280px;
+  font-family: "yasasisa", serif;
+  text-align:center;
+  font-size:36px;
+  line-height:100px;
+}
